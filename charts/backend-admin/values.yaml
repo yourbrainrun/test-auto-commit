@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: mileagedevcr.azurecr.io/mileage-dev/backend-admin
   pullPolicy: Always
-  tag: "latest"
+  tag: "v0.0.2"
 
 imagePullSecrets:
   - name: acr-credential
